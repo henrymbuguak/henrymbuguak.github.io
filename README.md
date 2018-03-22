@@ -23,3 +23,4 @@ update book: [update book](https://henrymbuguak.github.io/templates/dashboard/ad
 return book: [return a book](https://henrymbuguak.github.io/templates/dashboard/user/return_detail.html)
 borrowed books: [borrowed book](https://henrymbuguak.github.io/templates/dashboard/user/borrowed_books.html)
 books yet to be returned: [due borrowed book](https://henrymbuguak.github.io/templates/dashboard/user/due_borrowed_books.html)
+user profile: [user profile](https://henrymbuguak.github.io/templates/dashboard/user/profile.html)
