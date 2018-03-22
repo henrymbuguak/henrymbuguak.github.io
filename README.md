@@ -37,3 +37,5 @@ books yet to be returned: [due borrowed book](https://henrymbuguak.github.io/tem
 user profile: [user profile](https://henrymbuguak.github.io/templates/dashboard/user/profile.html)
 
 user profile: [borrowing history](https://henrymbuguak.github.io/templates/dashboard/user/history.html)
+
+Github pages: [Hello books](https://henrymbuguak.github.io/)
