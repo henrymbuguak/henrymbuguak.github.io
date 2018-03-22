@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9654340e-91d2-40f8-819f-b681d0c9e2d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/user/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dashboard/user/borrowed_books.html" afterPath="$PROJECT_DIR$/templates/dashboard/user/borrowed_books.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dashboard/user/due_borrowed_books.html" afterPath="$PROJECT_DIR$/templates/dashboard/user/due_borrowed_books.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,15 +44,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <first_editor relative-caret-position="503">
+                <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="67" column="104" lean-forward="false" selection-start-line="67" selection-start-column="104" selection-end-line="67" selection-end-column="104" />
+              <folding>
+                <element signature="e#2912#2919#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,16 +122,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dashboard/admin/book_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="88" column="78" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="88" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -140,7 +139,6 @@
         <option value="$PROJECT_DIR$/templates/dashboard/user/index.html" />
         <option value="$PROJECT_DIR$/templates/dashboard/admin/create_book.html" />
         <option value="$PROJECT_DIR$/templates/dashboard/admin/book_detail.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/dashboard/admin/index.html" />
         <option value="$PROJECT_DIR$/templates/dashboard/admin/edit_book.html" />
         <option value="$PROJECT_DIR$/templates/dashboard/user/return_book.html" />
@@ -148,6 +146,7 @@
         <option value="$PROJECT_DIR$/templates/dashboard/user/due_borrowed_books.html" />
         <option value="$PROJECT_DIR$/templates/dashboard/user/borrowed_books.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -338,7 +337,7 @@
         <state relative-caret-position="600">
           <caret line="40" column="71" lean-forward="false" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
           <folding>
-            <element signature="e#2902#2909#0" expanded="true" />
+            <element signature="e#2912#2919#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -388,7 +387,7 @@
         <state relative-caret-position="600">
           <caret line="40" column="71" lean-forward="false" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
           <folding>
-            <element signature="e#2902#2909#0" expanded="true" />
+            <element signature="e#2912#2919#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -422,16 +421,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dashboard/admin/sidenav.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="40" column="71" lean-forward="false" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
-          <folding>
-            <element signature="e#2902#2909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/dashboard/admin/create_book.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -518,11 +507,21 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <first_editor relative-caret-position="503">
+            <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="67" column="104" lean-forward="false" selection-start-line="67" selection-start-column="104" selection-end-line="67" selection-end-column="104" />
+          <folding>
+            <element signature="e#2912#2919#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
