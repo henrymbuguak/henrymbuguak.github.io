@@ -28,7 +28,7 @@ delete book: [delete a book](https://henrymbuguak.github.io/templates/dashboard/
 
 update book: [update book](https://henrymbuguak.github.io/templates/dashboard/admin/edit_book.html)
 
-return book: [return a book](https://henrymbuguak.github.io/templates/dashboard/user/return_detail.html)
+return book: [return a book](https://henrymbuguak.github.io/templates/dashboard/user/return_book.html)
 
 borrowed books: [borrowed book](https://henrymbuguak.github.io/templates/dashboard/user/borrowed_books.html)
 
