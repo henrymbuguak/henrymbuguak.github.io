@@ -67,43 +67,26 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Update book </h1>
-           <div class="row">
-            <div class="col-md-6">
-                <form method="post" action="">
-                    <div class="form-group">
-                        <label for="title">Title *</label>
-                        <input type="text" name="title" id="title" required="True" class="form-control" value="Dream Chaser Approach2 ">
-                    </div>
-                     <div class="form-group">
-                     <label for="author">Select author *</label>
-                     <select class="form-control" id="author" name="author">
-                     <option value="">Nelson Mose</option>
-                             <option value="">Barack Obama</option>
-                     </select>
-                     </div>
-                    <div class="form-group">
-                     <label for="language">Select language *</label>
-                     <select class="form-control" id="language" name="language">
-                     <option value="">English</option>
-                         <option value="">English</option>
-                     </select>
-                     </div>
-                    <div class="form-group">
-                     <label for="genre">Select genre *</label>
-                     <select class="form-control" id="genre" name="genre" required="">
-                     <option value="">Fantasy</option>
-                             <option value="">Love</option>
-                     </select>
-                     </div>
-                     <div class="form-group">
-                         <label for="summary">Description</label>
-                         <textarea class="form-control" id="summary" rows="3" name="summary">Learn English Speaking and Grammar through Hindi language. A guideline of Spoken English withcomplete grammar. One million download already done. It teaches you the rules ofEnglish from basic to advanced  level with full guarantee.
-                         </textarea>
-                     </div>
-                    <button type="submit" class="btn btn-primary">update</button>
-                </form>
-            </div>
+          <h1 class="page-header">Books yet to be returned </h1>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Status</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Dream Chaser Approach2</td>
+                  <td>Nelson</td>
+                  <td><a href="">not yet returned</a></td>
+                  <td><a href="https://henrymbuguak.github.io/templates/dashboard/admin/book_detail.html">view</a></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

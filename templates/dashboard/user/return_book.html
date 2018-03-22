@@ -60,50 +60,32 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
               <li><a href="">Book</a></li>
-              <li><a href="">Author</a></li>
-              <li><a href="">Language</a></li>
-              <li><a href="">Genre</a></li>
-              <li><a href="">Registered users</a></li>
+              <li><a href="">Borrowed books</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header">Update book </h1>
-           <div class="row">
-            <div class="col-md-6">
-                <form method="post" action="">
-                    <div class="form-group">
-                        <label for="title">Title *</label>
-                        <input type="text" name="title" id="title" required="True" class="form-control" value="Dream Chaser Approach2 ">
-                    </div>
-                     <div class="form-group">
-                     <label for="author">Select author *</label>
-                     <select class="form-control" id="author" name="author">
-                     <option value="">Nelson Mose</option>
-                             <option value="">Barack Obama</option>
-                     </select>
-                     </div>
-                    <div class="form-group">
-                     <label for="language">Select language *</label>
-                     <select class="form-control" id="language" name="language">
-                     <option value="">English</option>
-                         <option value="">English</option>
-                     </select>
-                     </div>
-                    <div class="form-group">
-                     <label for="genre">Select genre *</label>
-                     <select class="form-control" id="genre" name="genre" required="">
-                     <option value="">Fantasy</option>
-                             <option value="">Love</option>
-                     </select>
-                     </div>
-                     <div class="form-group">
-                         <label for="summary">Description</label>
-                         <textarea class="form-control" id="summary" rows="3" name="summary">Learn English Speaking and Grammar through Hindi language. A guideline of Spoken English withcomplete grammar. One million download already done. It teaches you the rules ofEnglish from basic to advanced  level with full guarantee.
-                         </textarea>
-                     </div>
-                    <button type="submit" class="btn btn-primary">update</button>
-                </form>
+          <h1 class="page-header">Books </h1>
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <img src="../.././../static/img/index.jpeg" width="200" height="200">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Dream Chaser Approach2  </h4><br>
+                    <p style="font-weight: 100">by Nelson Mose</p><br>
+                    <p class="text-muted">Genre: Fantasy</p>
+                    <p class="text-muted">Language: English</p>
+                    <p><a href="" class="btn btn-danger">return</a></p>
+                </div>
             </div>
+            <div class="media">
+              <h3 class="page-header">Book Description</h3>
+                <p>
+                    Learn English Speaking and Grammar through Hindi language. A guideline of Spoken English with
+                    complete grammar. One million download already done. It teaches you the rules of
+                    English from basic to advanced  level with full guarantee.
+                </p>
           </div>
         </div>
       </div>
